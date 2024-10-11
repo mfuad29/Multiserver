@@ -1,0 +1,18 @@
+Package: Multiserver
+Title: Multiserver Queuing System
+Version: 0.0.0.9000
+Authors@R: 
+    person(given= "Muhtasin", 
+    family="Fuad", 
+    email="muhtasin.fuad@students.mq.edu.au",
+    role = c("aut", "cre"))
+Description: the package provides tools for simulating "first come first serve" queing system with multiple servers, meaning it simulates multiserver queing systems based on customer arrival and service time data, which will calculate individual customer's waiting times, service times, and service end times. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports:
+    readr,tibble
